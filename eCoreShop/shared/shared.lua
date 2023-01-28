@@ -61,7 +61,13 @@ Config = {
 
         },
         
-                {
+        
+        
+        
+        
+        
+        
+        {
             Banner = "", -- Banniere
             Directory = "", -- Fichier ou se trouve labanniere
 
@@ -117,7 +123,6 @@ Config = {
             },
 
         },
-
 
     },
 }
