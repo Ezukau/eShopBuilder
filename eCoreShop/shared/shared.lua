@@ -60,6 +60,64 @@ Config = {
             },
 
         },
+        
+                {
+            Banner = "", -- Banniere
+            Directory = "", -- Fichier ou se trouve labanniere
+
+            NameMenu = "", -- Nom du menu
+            DescriptionMenu = "",
+            ColorMenu = "", -- Couleur du menu
+
+            PositonMenu = {
+                vector3(0,0,0) -- Position du Menu
+            }, 
+
+            PedEnable = true, 
+            Ped = {
+                pos = vector4(0,0,0,0), -- Position du Ped
+                hash = "",
+            },
+
+            BlipsEnable = true,
+            Blips = {
+                Id = 59,
+                Color = 2,
+                Taille = 0.7,
+                Range = true,
+                Name = "",
+                pos = vector3(0,0,0)
+            },
+
+            MarkesEnable = true,
+            Marker = {
+                Type = 23,
+                ColorR = 255,
+                ColorG = 0,
+                ColorB = 0,
+                Opacite = 200, 
+                SizeLargeur = 0.3,
+                SizeEpaisseur = 0.3,
+                SizeHauteur = 0.3,
+                Saute = false, 
+                Tourne = false,
+                Distance = 20.0,
+            },
+
+            Items = { -- Liste des items achetable
+                {label = "", name = "", price = , qtmax = , ListIndex = , donttouch = {}},
+                {label = "", name = "", price = , qtmax = , ListIndex = , donttouch = {}},
+
+            },
+
+            PayedMethode = {
+                Cash = true, -- Liquide
+                Bank = true, -- Banque
+                BlackMoney = false -- Argent Sale
+            },
+
+        },
+
 
     },
 }
